@@ -10,14 +10,15 @@ CONTACT FORM</em></h1>
 <!-- Форма -->
 <form action="formdata.php" method="POST" name="contact_form">
 <fieldset>
-<legend>Личные данные</legend>
+<legend><strong>Личные данные</strong></legend>
 <p><label>Имя:  <input type="text" name="name" size="35" maxlength="30"></label></p>
 <p><label>Фамилия:  <input type="text" name="name" size="35" maxlength="40"></label></p>
 
 <p><label>Пароль:  <input type="password" name="name" size="20" maxlength="20"></label></p>
 <p><label>Подтвердите пароль:  <input type="password" name="name" size="20" maxlength="20"></label></p>
 </fieldset>
-
+<fieldset>
+<legend><strong>Вопросы</strong></legend>
 <p>Любите ли Вы экономить время?
 <label>Да<input type="radio" name="time" value="yes" checked></label>
 <label>Нет<input type="radio" name="time" value="no"></label>
@@ -40,6 +41,7 @@ CONTACT FORM</em></h1>
 <option selected value="seven">7</option>
 <option>> 8</option>
 </select>
+</fieldset>
 </p>
 
 <p><label for="messages">Сообщение:</label></p>
